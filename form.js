@@ -50,28 +50,38 @@ class Form{
         this.radio5.option('NO')
         this.radio5.style('width','60px')
     
-        this.d=createElement("write few precautions of Covid-19") 
-        this.d.style('width','420px')
-        this.d.style('height','100px')
-    
+        
     }
     display(){
         
         this.title.html("COVID-19 SURVEY FORM")
-        this.title.position(displayWidth/2,20)
+        this.title.position(displayWidth/2-150,20)
     
         this.name.html("YOUR NAME")
-        this.name.position(displayWidth/2+50,125)
-        this.nameinput.position(displayWidth/2+300,155)
+        this.name.position(displayWidth/2-200,125)
+        this.nameinput.position(displayWidth/2,145)
         
     
         this.email.html("YOUR EMAIL")
-        this.email.position(displayWidth/2+50,145)
-        this.emailinput.position(displayWidth/2+300,175)
+        this.email.position(displayWidth/2-200,165)
+        this.emailinput.position(displayWidth/2,185)
         
-        this.submit.position(displayWidth/2+100,displayHeight-140)
-        this.reset.position(displayWidth/2+300,displayHeight-140)
+        this.submit.position(displayWidth/2-100,900)
+        this.reset.position(displayWidth/2+50,900)
         
+        this.q1.position(displayWidth/2-300,300)
+        this.radio1.position(displayWidth/2+150,320)
     
+        this.q2.position(displayWidth/2-300,400)
+        this.radio2.position(displayWidth/2+150,420)
+
+        this.q3.position(displayWidth/2-300,500)
+        this.radio3.position(displayWidth/2+150,520)
+
+        this.q4.position(displayWidth/2-300,600)
+        this.radio4.position(displayWidth/2+150,620)
+
+        this.q5.position(displayWidth/2-300,700)
+        this.radio5.position(displayWidth/2+150,720)
     }
     }
